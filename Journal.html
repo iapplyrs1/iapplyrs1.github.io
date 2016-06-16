@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CEN3031 Website">
+<meta name="author" content="Ivens Applyrs">
+<title> Ivens Applyrs</title>
+
+
+<!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/animate-custom.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+</head>
+
+<!-- Fixed navbar -->
+ <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  <div id="navbar-main"> 
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="#home"><i class="fa fa-caret-square-o-right"></i> Ivens Applyrs</a> </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="smoothScroll">Home</a></li>
+            <li> <a href="index.html#about" class="smoothScroll"> About</a></li>
+            <!-- <li> <a href="#travels" class="smoothScroll"> Travels</a></li> -->
+            <li> <a href="Journal.html" class ="smoothScroll"> Journal</a></li>
+            <li> <a href="index.html#contact" class="smoothScroll"> Contact</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+      </div>
+    </div>
+  </div>
+</body>
+<!-- End NavBar -->
+
+
+<hr>
+<!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            BCI Data Acquistion!
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Working with Emotiv Insight
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Ivens Applyrs</a> on June 16, 2016</p>
+                   <a href="#" class="read_more">Read More</a><br/>
+                   <span class="more_text"> Utilized test cases and visually compare BrainWave data. </span>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                        </h2>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Science has not yet mastered prophecy
+                        </h2>
+                        <h3 class="post-subtitle">
+                            We predict too much for the next year and yet far too little for the next ten.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Failure is not an option
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
+                </div>
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- JQuery Script that renders all Read More options -->
+        <script type="text/javascript">
+          $(document).ready(function(){ /* to make sure the script runs after page load */
+
+            $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+            event.preventDefault(); /* prevent the a from changing the url */
+            $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+
+            });
+        });
+
+        </script>
+
+
+    </div>
+
+    <hr> 
+
+
+
+
+
+</html>
