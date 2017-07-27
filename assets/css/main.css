@@ -222,7 +222,7 @@ a:before, a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	/*background: url(../img/header_bg.jpg) no-repeat center top;*/
 	padding-top: 200px;
 	text-align: center;
 	background-attachment: relative;
@@ -276,16 +276,16 @@ a:before, a:after {
 }
 #about {
 	background: #fff;
-	padding-top: 80px;
+	padding-top: 10px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 60px;
+	padding-bottom: 10px;
 }
 #about img {
 	margin-top: 0;
 }
 #services {
-	background: url(../img/header_bg.jpg) no-repeat center center fixed;
+	/*background: url(../img/header_bg.jpg) no-repeat center center fixed;*/
 	padding: 60px 0;
 	text-align: center;
 	background-size: cover;
@@ -319,7 +319,7 @@ a:before, a:after {
 	color: #fff;
 }
 #team {
-	background: url(../img/bg.jpg) no-repeat center center fixed;
+	/*background: url(../img/bg.jpg) no-repeat center center fixed;*/
 	padding: 60px 0;
 	text-align: center;
 	background-size: cover;

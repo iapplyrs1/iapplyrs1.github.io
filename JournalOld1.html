@@ -39,13 +39,25 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="#home"><i class="fa fa-caret-square-o-right"></i> Ivens Applyrs</a> </div>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-caret-square-o-right"></i> Ivens Applyrs</a> </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html" class="smoothScroll">Home</a></li>
             <li> <a href="index.html#about" class="smoothScroll"> About</a></li>
             <!-- <li> <a href="#travels" class="smoothScroll"> Travels</a></li> -->
-            <li> <a href="Journal.html" class ="smoothScroll"> Journal</a></li>
+            <li> <a href="Journal.html" class ="smoothScroll"> Journal</a>
+                 <ul class="dropdown-menu" role="menu">
+                      <li>
+                        <a href="#">Drop 1</a>
+                      </li>
+                      <li>
+                        <a href="#">Drop 2</a>
+                      </li>
+                      <li>
+                        <a href="#">Drop 3</a>
+                      </li>
+                 </ul>
+            </li>
             <li> <a href="index.html#contact" class="smoothScroll"> Contact</a></li>
           </ul>
         </div>
@@ -124,13 +136,11 @@
                 <hr>
                 <!-- Pager -->
                 <ul class="pager">
-                    <li class="next">
-                        <a href="Journal.html">&larr; Latest Post</a>
-                    </li>
-                </ul>
-                <ul class="pager">
                     <li class="previous">
                         <a href="#">Older Posts &rarr;</a>
+                    </li>
+                    <li class="next">
+                        <a href="Journal.html">&larr; Latest Post</a>
                     </li>
                 </ul>
             </div>
@@ -144,7 +154,7 @@
             
             //hasBeenClicked = true; /* assign a boolean that sets clicked to true */
             event.preventDefault(); /* prevent the a from changing the url */
-            $(this).parents('.post-preview').find(".more_text").show(); /* show the .more_text span */
+            parents('.post-preview').find(".more_text").show(); /* show the .more_text span */
 
             });
 
