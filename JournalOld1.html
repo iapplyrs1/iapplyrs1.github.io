@@ -74,6 +74,36 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                 <div class="post-preview">
+                    <a href="journal/Week9.html">
+                        <h2 class="post-title">
+                            DREU Week 5!
+                        </h2>
+                        <h3 class="post-subtitle">
+                            #TRIOWORKS
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Ivens Applyrs</a> on June 23, 2017</p>
+          <p class="more_text" style='display:none'> Though we are technically off for the Summer, I was given the opportunity to travel to Atlanta to give an oral presentation on my research on "Consumer grade Brain Computer Interfaces as a form of Authentication and Control." The judges stated that I articulated my research well and made it very informative. I am sure that if I had more conclusive data, I would have receive an award recognition. I am thankful for the DREU and McNair program for giving me this opportunity #TrioWorks. </p>
+                    <a href="#" class="read_more"> Read More <br/></a>
+                   
+                </div>
+                <hr>
+                 <div class="post-preview">
+                    <a href="journal/Week9.html">
+                        <h2 class="post-title">
+                            DREU Week 4!
+                        </h2>
+                        <h3 class="post-subtitle">
+                            GRE...
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Ivens Applyrs</a> on June 16, 2017</p>
+          <p class="more_text" style='display:none'> As a McNair scholar, I have been given the opportunity to receive GRE classes for free. So every tuesday and thursdays, I cover the Math and reading sections of the GRE. When we are not in class, I practice on my own by reviewing problems and reading test materials. I am looking to retake the GRE around August 15th, I am hoping to receive a better score. </p>
+                    <a href="#" class="read_more"> Read More <br/></a>
+                   
+                </div>
+                <hr>
                 <div class="post-preview">
                     <a href="journal/Week9.html">
                         <h2 class="post-title">
@@ -149,12 +179,12 @@
          <!-- JQuery Script that renders all Read More/ Read Less options -->
         <script type="text/javascript">
           $(document).ready(function(){ /* to make sure the script runs after page load */
-            var hasBeenClicked = false; /* boolean to check if item has been clicked to true */
+          	var hasBeenClicked = false; /* boolean to check if item has been clicked to true */
             $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
             
             //hasBeenClicked = true; /* assign a boolean that sets clicked to true */
             event.preventDefault(); /* prevent the a from changing the url */
-            parents('.post-preview').find(".more_text").show(); /* show the .more_text span */
+            $(this).parents('.post-preview').find(".more_text").show(); /* show the .more_text span */
 
             });
 
@@ -168,6 +198,8 @@
         });
 
         </script>
+
+
 
 
     </div>
